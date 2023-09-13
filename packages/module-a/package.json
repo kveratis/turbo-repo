@@ -1,0 +1,20 @@
+{
+  "name": "module-a",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b",
+    "lint": "eslint \"**/*.ts*\"",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "module-b": "^1.0.0"
+  }, "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
+    "typescript": "^5.2.2"
+  }
+}
